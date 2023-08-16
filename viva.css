@@ -1,0 +1,63 @@
+.body{
+    background-image:linear-gradient(to right,green,lightgreen,rgba(0, 0, 255, 0.543),rgba(0, 0, 255, 0.712)) ;
+}
+
+.login{
+    background-image:linear-gradient(to right,rgba(255, 0, 0, 0.83),orange,yellow) ;
+}
+.content{
+   background-color: lightgray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    padding: 20px 250px;
+    border: 2px solid black;
+    text-align: left;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.row{
+    width: 110% ;
+    height: 30px;
+    transition:transform 1.0s ;
+}
+
+.row:hover{
+  transform:scale(1.12);}
+
+
+.btn {
+    background: #3498db;
+    background-image: linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 28;
+    border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .error{
+    color:red ;
+    font-size: medium;
+
+  }
+  .head{
+    text-align:center;
+  }
